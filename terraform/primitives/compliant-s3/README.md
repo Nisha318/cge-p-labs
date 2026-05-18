@@ -1,0 +1,1 @@
+This module provisions a compliant AWS S3 bucket enforcing SC-28 (AES-256 encryption at rest), AC-3 (full public access block), CM-6 (required compliance tags via provider default_tags and versioning), and AU-3/AU-6 (server access logging to a dedicated log bucket). Machine-readable compliance evidence is captured via tofu show -json and stored in evidence/lab-2-3/.
